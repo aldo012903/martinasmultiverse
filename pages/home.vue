@@ -3,7 +3,7 @@
 	  <div class="w-full justify-center text-end absolute bottom-[50px] right-[50px] cursor-pointer" @click="toggle()">
 		Go to showroom &#8594;
 	  </div>
-	  <div class="w-full justify-center text-start absolute top-[50px] left-[50px] cursor-pointer" @click="toggle()">
+	  <div class="w-full justify-center text-start absolute top-[50px] left-[50px] cursor-pointer">
 		Martina's Homepage
 	  </div>
 	  <div class="d-flex justify-content-center align-items-center vh-100">

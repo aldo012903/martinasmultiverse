@@ -10,7 +10,6 @@ export default ({
     "~/node_modules/bootstrap/dist/css/bootstrap.min.css",
     '~/static/assets/css/main.css'
   ],
-
   plugins: [
     { src: "~/plugins/bootstrap.js", mode: 'client'},
     '~/plugins/loadImages.js',
@@ -24,7 +23,11 @@ export default ({
   },
 
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' }
+    pageTransition: { name: 'page', mode: 'out-in' },
+    baseURL: '/martinasmultiverse/', // baseURL: '/<repository>/'
+  },
+  build: {
+    publicPath: '/martinasmultiverse/_nuxt/' // Adjust based on your repo name and structure
   },
 
   modules: ["@nuxt/image", "@nuxtjs/tailwindcss"]

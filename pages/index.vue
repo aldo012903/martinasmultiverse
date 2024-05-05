@@ -10,10 +10,10 @@
             </div>
             <div class="d-flex justify-content-center">
               <a @click="checkPassword()">
+                <!-- <span></span>
                 <span></span>
                 <span></span>
-                <span></span>
-                <span></span>
+                <span></span> -->
                 Submit
               </a>
             </div>
@@ -139,14 +139,14 @@ body {
   display: block;
 }
 
-.login-box a span:nth-child(1) {
+/* .login-box a span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
   height: 2px;
   background: linear-gradient(90deg, transparent, #f44703);
   animation: btn-anim1 1s linear infinite;
-}
+} */
 
 @keyframes btn-anim1 {
   0% {
